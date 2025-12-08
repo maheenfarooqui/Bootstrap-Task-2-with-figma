@@ -1,0 +1,65 @@
+.registerBtn{
+    background-color:#75BF7A;
+    border: 1px solid #75BF7A;
+    height: 49.49px;
+    width: 148.25px;
+    color: #fff;
+    border-radius: 2.78px;
+}
+.registerBtn:hover{
+    background-color:#75BF7A !important;
+    color: #fff;
+}
+.fontB{
+    font-weight: bold;
+}
+.btnDark{
+    background-color: #000;
+    border: 1px solid #000;
+    height: 49.49px;
+    width: 200px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2.78px;
+}
+.btnDark:hover{
+    background-color:#000 !important;
+    color: #fff;
+}
+.btnDark img{
+    margin-right: 10px;
+    width: 25px;
+}
+.navbar-nav{
+    gap: 20.71px;
+}
+nav img{
+    width: 100px;
+}
+.imgSize{
+    width: 350px;
+}
+.headerColor{
+    background-color: #F5F7FA;
+}
+.bgDark{
+    background-color: #75BF7A;
+    color: white;
+    border-radius: 10px;
+    height: 150px;
+
+}
+.myInput{
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 2.78px;
+    padding-left: 20px;
+}
+.colorG{
+    color: #75BF7A;
+}
+.colorT{
+    color: #9E9DA2;
+}
