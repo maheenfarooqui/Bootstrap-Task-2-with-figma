@@ -95,6 +95,7 @@ nav img{
 }
 .myBox{
     width: 850px;
+
     
 }
 .myBox2{
@@ -106,5 +107,78 @@ nav img{
 }
 
 @media only screen and (max-width: 992px) {
+    .imgSize{
+        order: 1;
+    }
+    .myHero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myHText{
+        width: 100%;
+        text-align: center;
+        order: 2;
+        margin-top: 50px;
+    }
+    .bgDark{
+        height: auto;
+    }
+    .myInput{
+        width: 350px !important;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        padding: 14px;
+
+    }
+    form button{
+        width: 350px !important;
+    }
+    .bggreen{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+
+}
+.bggreen img{
+    width: 200px;
+
+}
+.myOder{
+    display: flex;
+}
+.myOder .bggreen img{
+    order: 1;
+}
+.myOder .myOder2{
+    order: 2;
+}
+.myOder .myOder3{
+    order: 3;   
+}
+    
+
+
+}
+@media only screen and (max-width: 792px) {
+    .myInB{
+        flex-direction: column !important;
+        display: flex;
+       
+    }
+    .myInput{
+        width: 100%;
+    }
+    .myBox{
+    width: 550px;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 0px !important;
+}
+    
+    
+}
 
 }
