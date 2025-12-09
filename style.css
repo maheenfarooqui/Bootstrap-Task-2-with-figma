@@ -63,3 +63,48 @@ nav img{
 .colorT{
     color: #9E9DA2;
 }
+.groupImg{
+    position: relative;
+
+}
+.groupImg .img1{
+    width: 60px;
+}
+.groupImg .img2{
+    position: absolute;
+    top:19px ;
+    right:24px ;
+}
+.bggreen{
+    background-color: #75BF7A;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+
+}
+.bggreen img{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img3{
+    width: 200px;
+}
+.myBox{
+    width: 850px;
+    
+}
+.myBox2{
+     margin-left: 90px;
+
+}
+.fontS{
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 992px) {
+
+}
