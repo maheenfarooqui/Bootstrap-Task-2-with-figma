@@ -40,6 +40,9 @@ nav img{
 .imgSize{
     width: 350px;
 }
+.myImg{
+    display: none;
+}
 .headerColor{
     background-color: #F5F7FA;
 }
@@ -105,10 +108,29 @@ nav img{
 .fontS{
     font-size: 60px;
 }
+.imgBg {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 200px;
+}
+
+.myImgBg {
+  position: absolute;
+  top: 67%;
+  left: 20%;
+  transform: translateY(-50%);
+  width: 270px;       /* apni marzi ka size */
+  z-index: -1;        /* peeche bhej dega */
+      /* halka sa transparent (optional) */
+}
+
 
 @media only screen and (max-width: 992px) {
     .imgSize{
         order: 1;
+    }
+    .myImg{
+        display: block;
     }
     .myHero{
         display: flex;
@@ -130,6 +152,9 @@ nav img{
         margin-top: 20px;
         padding: 14px;
 
+    }
+    .myImgBg{
+        display: none;
     }
     form button{
         width: 350px !important;
@@ -156,8 +181,6 @@ nav img{
 .myOder .myOder3{
     order: 3;   
 }
-    
-
 
 }
 @media only screen and (max-width: 792px) {
@@ -165,6 +188,9 @@ nav img{
         flex-direction: column !important;
         display: flex;
        
+    }
+    .myImg{
+        display: block;
     }
     .myInput{
         width: 100%;
@@ -179,6 +205,4 @@ nav img{
 }
     
     
-}
-
 }
